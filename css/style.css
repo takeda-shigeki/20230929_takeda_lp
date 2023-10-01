@@ -50,13 +50,13 @@ main {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 20%;
+    left: 7%;
     z-index: 2;
 }
 
 .copy__text--firstline {
     margin-top: 100px;
-    font-size: 83px;
+    font-size: 58px;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     color: rgb(153, 65, 115);
@@ -68,7 +68,7 @@ main {
 
 .copy__text--secondline {
     margin-top: -65px;
-    font-size: 83px;
+    font-size: 58px;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     color: rgb(153, 65, 115);
@@ -76,7 +76,7 @@ main {
 
 .copy__text--thirdline {
     margin-top: -10px;
-    font-size: 30px;
+    font-size: 21px;
     font-family: Yu Gothic;
     font-weight: bold;
     color: rgb(153, 65, 115);
@@ -88,13 +88,13 @@ main {
 
 .copy__text--fourthline {
     margin-top: -25px;
-    font-size: 21px;
+    font-size: 15px;
     color: rgb(97, 97, 97);
 }
 
 .copy__text--fifthline {
     margin-top: -15px;
-    font-size: 21px;
+    font-size: 15px;
     color: rgb(97, 97, 97);
 }
 
@@ -116,7 +116,7 @@ main {
 .news {
     position: relative;
     margin-top: 225px;
-    width: 985px;
+    width: 850px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -229,18 +229,18 @@ main {
 .about__text {
     position: absolute;
     top: 155px;
-    left: 17.2%;
+    left: 10%;
     font-size: 20px;
     line-height: 1.7;
+    z-index: 2;
 }
 
 .about__image {
     position: absolute;
     top: 155px;
-    right: 0;
+    right: 10%;
     bottom: 0;
-    left: 40%;
-    text-align: center;
+    z-index: 1;
 }
 
 .service {
@@ -253,7 +253,7 @@ main {
 .service__header1 {
     position: absolute;
     top: 65px;
-    left: 17%;
+    left: 10%;
     font-size: 20px;
     font-family: 'Indie Flower', cursive;
     color: rgb(153, 65, 115);
@@ -262,7 +262,7 @@ main {
 .service__header2 {
     position: absolute;
     top: 110px;
-    left: 17%;
+    left: 10%;
     font-size: 34px;
     font-family: Yu Gothic;
     font-weight: bold;
@@ -272,8 +272,8 @@ main {
 .service__image--left {
     position: absolute;
     top: 230px;
-    left: 17%;
     right: 50%;
+    left: 10%;
     height: 510px;
     padding-top: 52px;
     padding-left: 60px;
@@ -288,7 +288,7 @@ main {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
-    font-size: 23px;
+    font-size: 21px;
     font-family: Yu Gothic;
     font-weight: bold;
 }
@@ -299,13 +299,13 @@ main {
     margin-left: auto;
     padding-top: 0;
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .service__image--upper_right, .service__image--lower_right {
     position: absolute;
+    right: 10%;
     left: 50%;
-    right: 17%;
     height: 230px;
     padding-top: 52px;
     padding-left: 10px;
@@ -322,18 +322,18 @@ main {
 
 .service__image--upper_right--text1, .service__image--lower_right--text1 {
     position: absolute;
-    top: 30px;
+    top: 12%;
     left: 220px;
-    font-size: 23px;
+    font-size: 21px;
     font-family: Yu Gothic;
     font-weight: bold;
 }
 
 .service__image--upper_right--text2, .service__image--lower_right--text2 {
     position: absolute;
-    top: 90px;
+    top: 30%;
     left: 220px;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.8;
 }
 
@@ -346,14 +346,14 @@ main {
     position: relative;
     margin-top: 13px;
     width: 100%;
-    height: 790px;
+    height: 670px;
     background-color: rgb(238, 238, 238);
 }
 
 .blog__header1 {
     position: absolute;
     top: 5px;
-    left: 17%;
+    left: 10%;
     font-size: 20px;
     font-family: 'Indie Flower', cursive;
     color: rgb(153, 65, 115);
@@ -362,7 +362,7 @@ main {
 .blog__header2 {
     position: absolute;
     top: 50px;
-    left: 17%;
+    left: 10%;
     font-size: 34px;
     font-family: Yu Gothic;
     font-weight: bold;
@@ -372,15 +372,15 @@ main {
 .blog__image {
     position: absolute;
     top: 175px;
-    right: 17%;
-    left: 17%;
-    height: 440px;
+    right: 10%;
+    left: 10%;
+    height: 340px;
     display: flex;
     justify-content: space-between;
 }
 
 .blog__image--left, .blog__image--center, .blog__image--right {
-    width: 370px;
+    width: 260px;
     border-radius: 22px;
     background-color: white;
 }
@@ -409,30 +409,31 @@ main {
 
 .blog__image--left--text2, .blog__image--center--text2, .blog__image--right--text2 {
     margin-top: 23px;
-    margin-right: 27px;
-    margin-left: 27px;
+    margin-right: 10px;
+    margin-left: 10px;
     padding-right: 0;
     padding-left: 0;
-    font-size: 21px;
+    font-size: 16px;
     font-weight: bold;
     color: rgb(97, 97, 97);
 }
 
 .blog__image--left--text3, .blog__image--center--text3, .blog__image--right--text3 {
-    margin-right: 27px;
-    margin-left: 27px;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
     padding-right: 0;
     padding-left: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    font-size: 19px;
+    font-size: 15px;
     color: rgb(97, 97, 97);
 }
 
 .blog__button {
     position: absolute;
-    top: 660px;
+    top: 550px;
     width: 100%;
 }
 
@@ -457,14 +458,16 @@ main {
 .company {
     position: relative;
     margin-top: 55px;
-    width: 100%;
+    width: 850px;
+    margin-right: auto;
+    margin-left: auto;
     height: 670px;
 }
 
 .company__header1 {
     position: absolute;
     top: 5px;
-    left: 21.5%;
+    left: 0;
     font-size: 20px;
     font-family: 'Indie Flower', cursive;
     color: rgb(153, 65, 115);
@@ -472,8 +475,8 @@ main {
 
 .company__header2 {
     position: absolute;
-    top: 50px;
-    left: 21.5%;
+    top: 30px;
+    left: 0;
     font-size: 34px;
     font-family: Yu Gothic;
     font-weight: bold;
@@ -482,8 +485,9 @@ main {
 
 .company__table {
     position: absolute;
-    top: 180px;
-    left: 21.5%;
+    top: 150px;
+    right: 0;
+    left: 0;
     height: 445px;
     border-collapse: collapse;
     color: rgb(97, 97, 97);
@@ -508,39 +512,53 @@ main {
 
 .recruit {
     position: relative;
-    margin-top: 55px;
+    margin-top: 25px;
     width: 100%;
-    height: 450px;
-    display: flex;
-    list-style: none;
 }
 
-.recruit__recruit {
+.recruit::before {
+    content: "";
+    display: block;
+    padding-top: 22%;
+}
+
+.recruit__recruit_photograph {
     position: absolute;
     top: 0;
     left: 0;
     width: 50%;
-    height: auto;
 }
 
-.recruit__interview {
+.recruit__interview_photograph {
     position: absolute;
+    top: 0;
     right: 0;
     width: 50%;
-    height: auto;
 }
 
-.recruit__recruit--photograph, .recruit__interview--photograph {
-    width: 100%;
-}
-
-.recruit__recruit--text, .recruit__interview--text {
+.recruit__recruit_text, .recruit__interview_text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    width: 50%;
+    bottom: 0;
+}
+
+.recruit__recruit_text {
+    left: 0;
+}
+
+.recruit__interview_text {
+    right: 0;
+}
+
+.recruit__recruit_text--text, .recruit__interview_text--text {
+    height: 100%;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    font-size: 38px;
+    font-size: 30px;
     font-weight: bold;
 }
 
